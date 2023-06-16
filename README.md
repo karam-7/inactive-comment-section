@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7/interactive-comment-section)
-- Live Site URL:(https://karam-7.github.io/interactive-comment-section/)
+- Solution URL:(https://github.com/karam-7/inactive-comment-section)
+- Live Site URL:(https://karam-7.github.io/inactive-comment-section/)
 
 ## My process
 
