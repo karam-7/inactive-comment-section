@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+    <title>Frontend Mentor | Interactive comments section</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <template class="replay-temp">
+        <div class="user-input contanier">
+            <img src="./images/avatars/image-juliusomo.png" alt="avatar" class="u-img">
+            <textarea placeholder="Add a comment....  " class="user-comment"></textarea>
+            <button class="btn-primary">SEND</button>
+        </div>
+    </template>
+
+    <!-- <template class="edit-temp">
+        <div class="edit-input contanier">
+            <textarea placeholder="Add a comment....  " class="user-comment"></textarea>
+            <button class="btn-primary">Update</button>
+        </div>
+    </template> -->
+
+    <template class="comment-temp">
+        <div class="comment-wrap">
+            <div class="comment contanier">
+                <div class="score">
+                    <img src="./images/icon-plus.svg" alt="icon" class="s-control plus">
+                    <p class="num">5</p>
+                    <img src="./images/icon-minus.svg" alt="icon" class="s-control minus">
+                </div>
+                <div class="control">
+                    <a class="delete"><img src="./images/icon-delete.svg" alt="delete" class="c-icon">Delete</a>
+                    <a class="edit"><img src="./images/icon-edit.svg" alt="edit" class="c-icon">Edit</a>
+                    <a class="replay"><img src="./images/icon-reply.svg" alt="replay" class="c-icon">Replay</a>
+                </div>
+                <div class="c-user">
+                    <img src="./images/avatars/image-maxblagun.png" alt="user" class="u-img">
+                    <p class="u-name">maxblagun</p>
+                    <p class="c-time">2 weeks ago</p>
+                </div>
+                <p class="c-text">
+                    <span class="c-replay"></span>
+                    <span class="c-body"></span>
+                </p>
+            </div>
+            <div class="replies comments-wrap">
+
+            </div>
+        </div>
+    </template>
+    <!-- ===========================Start MAIN AREA======================= -->
+    <main id="site">
+        <div class="comment-section">
+            <div class="comments-wrap">
+
+            </div>
+            <div class="user-input contanier">
+                <img src="./images/avatars/image-juliusomo.png" alt="avatar" class="u-img">
+                <textarea placeholder="Add a comment....  " class="user-comment"></textarea>
+                <button class="btn-primary">SEND</button>
+            </div>
+        </div>
+        <div class="model-wrap invisible">
+            <div class="model contanier">
+                <h3>Delete Comment</h3>
+                <p>
+                    Are you sure you want to delete this comment? This will
+                    remove the comment and can't be undone
+                </p>
+                <button class="yes">Yes, delete</button>
+                <button class="no">No, cancel</button>
+            </div>
+        </div>
+    </main>
+    <!-- ===========================END MAIN AREA======================= -->
+    <!-- ================================START FOOTER AREA====================== -->
+    <footer class="foot">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+         >Frontend Mentor</a
+        >. Coded by
+        <a href="http://karam-portfolio.liveblog365.com" target="_blank">
+         KARAM SINGH</a
+        >
+    </footer>
+    <!-- ================================END FOOTER AREA========================= -->
+    <script src="./script.js"></script>
+</body>
+</html>
